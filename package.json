@@ -2,7 +2,7 @@
 	"name": "islandview.nl",
 	"scripts": {
 		"dev": "parcel src/index.html",
-		"build": "parcel build src/index.html"
+		"build": "parcel build src/index.html --dist-dir docs"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.15",
